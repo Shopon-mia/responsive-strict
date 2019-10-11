@@ -1,0 +1,95 @@
+.menu-section .container {
+	    padding: 3px 0px 3px 0px;
+}
+.card-img-overlay {
+	color: #fff;
+	padding-top: 280px;
+    text-align: center;
+}
+.card-title {
+    font-size: 120px;
+}
+.menu-section nav ul li a{font-size: 16px;color: #2d3950;text-decoration: none;font-weight: 500;text-transform: uppercase;display: block;padding: 25px;}
+nav ul li a:hover{color: blue;
+}
+@media (min-width: 1200px){
+	.banner-section.col-xl-12{
+		padding-right: 0;
+		padding-left: 0;
+
+	}
+}
+@media (min-width: 992px){
+	.banner-section.col-lg-12{
+		padding-right: 0;
+		padding-left: 0;
+		
+
+	}
+}
+@media (min-width: 768px){
+	.banner-section.col-md-12{
+		padding-right: 0;
+		padding-left: 0;
+
+	}
+}
+@media (min-width: 576px){
+	.col-sm-12{
+		padding-right: 0;
+		padding-left: 0;
+
+	}
+}
+@media (max-width: 576px){
+	.col-12{
+		padding-right: 0;
+		padding-left: 0;
+
+	}
+}
+.banner-section .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.banner-section span{
+	background: #1915fa;
+    width: 50%;
+    height: 2px;
+    display: block;
+    margin: auto;
+}
+.banner-section a{
+	font-size: 18px;border: 2px solid #15a4fa;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px 37px;
+	border-radius: 5px; 
+	transition-duration: 0.4s;
+}
+.card{
+	border: 0;
+}
+.peragraph-section .card-title {
+    font-size: 35px;
+}
+.peragraph-section .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 4rem 5rem 6rem 5rem;
+}
+.peragraph-section .card {
+    background: #F5F9FA;
+}
+
+
